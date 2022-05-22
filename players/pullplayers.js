@@ -1,5 +1,5 @@
 function load(){
-		fetch("*/players/pullplayers.json") // Should change for forks
+		fetch("members.json")
 		.then(response => response.json())
 		.then(data => {
     for (i = 0; i < data.length; i++) {
