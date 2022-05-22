@@ -10,6 +10,8 @@ function load(){
     var addition = "<p><a href="+link+">"+name+"</a></p>";
     //Add addition
     document.getElementById("jeb").innerHTML += addition;
+//test if this is working
+alert("hi!");
     }
   });
   }
